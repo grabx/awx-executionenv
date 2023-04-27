@@ -2,13 +2,6 @@
 
 name: CI
 
-on:
-  pull_request:
-    branches: [devel]
-
-  push:
-    branches: [devel]
-
 jobs:
   podman:
     runs-on: ubuntu-20.04
