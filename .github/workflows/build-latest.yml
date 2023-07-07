@@ -1,6 +1,7 @@
 name: Build and Push latest image
 
 on:
+  workflow_dispatch:
   push:
     # build and push anytime commits are merged to devel
     branches:
