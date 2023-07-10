@@ -53,6 +53,7 @@ dependencies:
     six
     jmespath==0.10.0
     netaddr==0.7.19
+    azure-storage-queue
 additional_build_steps:
   append_base:
     - RUN $PYCMD -m pip install -U pip

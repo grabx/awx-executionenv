@@ -1,3 +1,4 @@
 git+https://github.com/ansible/ansible-builder.git@devel#egg=ansible-builder
 jmespath==0.10.0
 netaddr==0.7.19
+azure-storage-queue
