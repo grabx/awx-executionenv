@@ -65,5 +65,6 @@ additional_build_steps:
     - RUN $PYCMD -m pip install -U pip
   append_final:
     - COPY --from=quay.io/ansible/receptor:devel /usr/bin/receptor /usr/bin/receptor
+    - RUN curl https://rclone.org/install.sh | bash
     - RUN mkdir -p /var/run/receptor
     - RUN git lfs install --system
