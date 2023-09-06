@@ -41,6 +41,8 @@ dependencies:
     python3-pkgconfig [plaftorm:rpm]
     lz4-devel [platform:rpm]
     libzstd-devel [platform:rpm]
+    libacl-devel [platform:rpm]
+    libacl [platform:rpm]
   python: |
     git+https://github.com/ansible/ansible-sign
     ncclient
