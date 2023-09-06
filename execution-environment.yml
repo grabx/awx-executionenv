@@ -38,6 +38,11 @@ dependencies:
     epel-release [platform:rpm]
     python-unversioned-command [platform:rpm]
     unzip [platform:rpm]
+    pgkconfig [platform:rpm]
+    python3-pkgconfig [plaftorm:rpm]
+    lz4-devel [platform:rpm]
+    libzstd-devel [platform:rpm]
+    xxhash-devel [platform:rpm]
   python: |
     git+https://github.com/ansible/ansible-sign
     ncclient
